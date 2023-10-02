@@ -1,0 +1,28 @@
+package me.may.gem.dto;
+
+public enum GemType {
+	HEALTH,
+	PERCENTHEALTH,
+	ATTACK,
+	DEFENSE,
+	HIT,
+	DODGE,
+	KNOWING,
+	KNOWINGDEFENSE,
+	STRENTH,
+	TOUGHNESS,
+	ABILITY,
+	BODY,
+	PHYSICALPOWER,
+	ICE,
+	ICEDEFENSE,
+	FIRE,
+	FIREDEFENSE,
+	XUAN,
+	XUANDEFENSE,
+	POISON,
+	POISONDEFENSE;
+
+	private GemType() {
+	}
+}
